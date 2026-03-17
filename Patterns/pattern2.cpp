@@ -3,7 +3,7 @@ using namespace std;
 void pattern2(int n )
 {
 for(int i=0;i<n;i++) {
-    for(int j=0;j<i;j++) {
+    for(int j=0;j<=i;j++) {
         cout<<"* ";
     }
     cout<<endl;
@@ -19,3 +19,5 @@ int main()
         pattern2(n);
     }
 }
+
+// https://www.naukri.com/code360/problems/n-2-forest_6570178
